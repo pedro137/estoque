@@ -37,6 +37,19 @@ object frmCadItem: TfrmCadItem
     Font.Style = []
     ParentFont = False
   end
+  object Label2: TLabel
+    Left = 32
+    Top = 136
+    Width = 39
+    Height = 21
+    Caption = 'Pre'#231'o'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
   object txtNomeItem: TEdit
     Left = 112
     Top = 48
@@ -49,9 +62,9 @@ object frmCadItem: TfrmCadItem
     Top = 184
     Width = 99
     Height = 25
-    Caption = 'Cadastrar Item'
+    Caption = 'Cadastrar'
     TabOrder = 1
-    OnClick = BtnCadItemClick
+    OnClick = BtnCancelarCadItemClick
   end
   object txtDesricaoItem: TEdit
     Left = 112
@@ -61,19 +74,26 @@ object frmCadItem: TfrmCadItem
     TabOrder = 2
   end
   object BtnCancelarCadItem: TButton
-    Left = 278
+    Left = 254
     Top = 184
-    Width = 75
+    Width = 99
     Height = 25
     Caption = 'Cancelar'
     TabOrder = 3
     OnClick = BtnCancelarCadItemClick
   end
+  object txtPreco: TEdit
+    Left = 112
+    Top = 136
+    Width = 241
+    Height = 23
+    TabOrder = 4
+  end
   object conexao: TADOConnection
     ConnectionString = 
       'Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security In' +
       'fo=False;Initial Catalog=dbestoque;Data Source=DESKTOP-BAG7VMC\S' +
-      'QLEXPRESS'
+      'QLEXPRESS;'
     Provider = 'SQLOLEDB.1'
     Left = 184
     Top = 288
@@ -90,16 +110,22 @@ object frmCadItem: TfrmCadItem
         Name = 'desricao_item'
         Size = -1
         Value = Null
+      end
+      item
+        Name = 'preco'
+        Size = -1
+        Value = Null
       end>
     SQL.Strings = (
       'DECLARE @nome_item varchar(200)  = :nome_item, '
       '@descricao_item varchar(200)= :desricao_item ,'
-      '@cod_item INT ;'
+      '@cod_item INT,'
+      '@preco DECIMAL(10,2) = :preco; '
       ''
       'INSERT INTO dbestoque.dbo.tab_item'
-      '(nome_item,descricao_item)'
+      '(nome_item,descricao_item, preco)'
       'values ('
-      '@nome_item, @descricao_item'
+      '@nome_item, @descricao_item, @preco'
       ')'
       ''
       ''

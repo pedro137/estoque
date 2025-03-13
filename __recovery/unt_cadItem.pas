@@ -16,6 +16,8 @@ type
     Nome: TLabel;
     Label1: TLabel;
     BtnCancelarCadItem: TButton;
+    Label2: TLabel;
+    txtPreco: TEdit;
     procedure BtnCadItemClick(Sender: TObject);
     procedure BtnCancelarCadItemClick(Sender: TObject);
   private
@@ -38,6 +40,7 @@ begin
 qryCadItem.Close;
 qryCadItem.Parameters.ParamByName('nome_item').Value := txtNomeItem.Text;
 qryCadItem.Parameters.ParamByName('desricao_item').Value := txtDesricaoItem.Text;
+qryCadItem.Parameters.ParamByName('preco').Value := StrToFloat(txtPreco.Text);
 qryCadItem.Open;
 
 //ShowMessage('Item cadastrado!');

@@ -8,16 +8,12 @@ uses
 
 type
   TfrmCadItem = class(TForm)
-    BtnCadItem: TButton;
+    Button1: TButton;
     conexao: TADOConnection;
     txtNomeItem: TEdit;
     qryCadItem: TADOQuery;
     txtDesricaoItem: TEdit;
-    Nome: TLabel;
-    Label1: TLabel;
-    BtnCancelarCadItem: TButton;
-    procedure BtnCadItemClick(Sender: TObject);
-    procedure BtnCancelarCadItemClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,7 +27,7 @@ implementation
 
 {$R *.dfm}
 
-procedure TfrmCadItem.BtnCadItemClick(Sender: TObject);
+procedure TfrmCadItem.Button1Click(Sender: TObject);
 begin
 
 
@@ -40,13 +36,9 @@ qryCadItem.Parameters.ParamByName('nome_item').Value := txtNomeItem.Text;
 qryCadItem.Parameters.ParamByName('desricao_item').Value := txtDesricaoItem.Text;
 qryCadItem.Open;
 
-//ShowMessage('Item cadastrado!');
-//ShowMessage(qryCadItem.FieldByName('cod_item').As);
-end;
-
-procedure TfrmCadItem.BtnCancelarCadItemClick(Sender: TObject);
-begin
-Close;
+ShowMessage('Item cadastrado!');
+ShowMessage(qryCadItem.FieldByName('cod_item').As);
+qryCadItem.Close;
 end;
 
 end.

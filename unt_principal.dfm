@@ -12,13 +12,6 @@ object frmPrincipal: TfrmPrincipal
   Font.Style = []
   Menu = MainMenu1
   TextHeight = 15
-  object Label1: TLabel
-    Left = 120
-    Top = 160
-    Width = 34
-    Height = 15
-    Caption = 'Label1'
-  end
   object MainMenu1: TMainMenu
     Left = 368
     Top = 280
@@ -27,6 +20,10 @@ object frmPrincipal: TfrmPrincipal
       object Item1: TMenuItem
         Caption = 'Item'
         OnClick = Item1Click
+      end
+      object Preco1: TMenuItem
+        Caption = 'Preco'
+        OnClick = Preco1Click
       end
     end
   end
