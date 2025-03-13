@@ -12,6 +12,7 @@ type
     MainMenu1: TMainMenu;
     este1: TMenuItem;
     Item1: TMenuItem;
+    Preco1: TMenuItem;
     procedure Item1Click(Sender: TObject);
     procedure Preco1Click(Sender: TObject);
   private

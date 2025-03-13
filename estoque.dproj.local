@@ -4,16 +4,17 @@
     <Transaction>2025/02/27 21:02:20.000.507,=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/02/27 21:02:43.000.196,=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2025/02/27 21:20:28.000.916,=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2025/02/27 21:37:39.000.701,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\unt_cadItem.pas</Transaction>
-    <Transaction>2025/02/27 21:37:39.000.701,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\unt_cadItem.dfm</Transaction>
-    <Transaction>2025/02/27 21:38:23.000.628,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\unt_principal.pas</Transaction>
-    <Transaction>2025/02/27 21:38:23.000.628,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\unt_principal.dfm</Transaction>
-    <Transaction>2025/02/27 21:43:07.000.063,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\estoque.dproj</Transaction>
+    <Transaction>2025/02/27 21:37:39.000.701,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\unt_cadItem.pas=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2025/02/27 21:37:39.000.701,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\unt_cadItem.dfm=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2025/02/27 21:38:23.000.628,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\unt_principal.dfm=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2025/02/27 21:38:23.000.628,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\unt_principal.pas=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/02/27 21:43:07.000.063,C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\estoque\estoque.dproj=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2025/03/03 23:01:33.000.624,=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.pas</Transaction>
-    <Transaction>2025/03/03 23:02:20.000.814,C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.dfm=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\unt_preco.dfm</Transaction>
-    <Transaction>2025/03/03 23:02:20.000.814,C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.pas=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\unt_preco.pas</Transaction>
+    <Transaction>2025/03/03 23:02:20.000.814,C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\unt_preco.pas=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.pas</Transaction>
+    <Transaction>2025/03/03 23:02:20.000.814,C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\unt_preco.dfm=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.dfm</Transaction>
     <Transaction>2025/03/03 23:09:05.000.656,=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.pas</Transaction>
-    <Transaction>2025/03/03 23:30:57.000.034,C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.pas=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\unt_pesqitem.pas</Transaction>
-    <Transaction>2025/03/03 23:30:57.000.034,C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.dfm=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\unt_pesqitem.dfm</Transaction>
+    <Transaction>2025/03/03 23:30:57.000.034,C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\unt_pesqitem.pas=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.pas</Transaction>
+    <Transaction>2025/03/03 23:30:57.000.034,C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\unt_pesqitem.dfm=C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\Unit1.dfm</Transaction>
+    <Transaction>2025/03/12 22:24:22.683,C:\Users\reisj\OneDrive\Documentos\GitHub\estoque\unt_preco.pas=</Transaction>
   </Transactions>
 </BorlandProject>

@@ -131,10 +131,6 @@
             <Form>frmCadItem</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="unt_preco.pas">
-            <Form>FrmPreco</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="unt_pesqitem.pas">
             <Form>FrmPesqItem</Form>
             <FormType>dfm</FormType>

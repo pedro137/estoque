@@ -21,6 +21,10 @@ object frmPrincipal: TfrmPrincipal
         Caption = 'Item'
         OnClick = Item1Click
       end
+      object Preco1: TMenuItem
+        Caption = 'Preco'
+        OnClick = Preco1Click
+      end
     end
   end
 end
